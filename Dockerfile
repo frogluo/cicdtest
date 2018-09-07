@@ -3,7 +3,7 @@
 # 执行镜像制作命令: docker  build -t registry.kingdee.com/sme-web:$tag .
 #===========================================================
 
-FROM registry.kingdee.com/php:5.6
+FROM swr.cn-north-1.myhuaweicloud.com/k8stest/php:5.6
 
 MAINTAINER lihui_luo@kingdee <lihui_luo@kingdee.com>
 
